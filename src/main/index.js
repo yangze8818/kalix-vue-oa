@@ -115,14 +115,13 @@ const components = [
 const oa = {
   install: function (Vue, opts) {
     opts = opts | {}
-    let resolveArr = {}
-    let keyArr = []
-    // 共有参数
-    // Vue.prototype.$Tinymce = opts.Tinymce
-    // Vue.prototype.$Squire = opts.Squire
+    // let resolveArr = {}
+    // let keyArr = []
     components.map(function(component) {
       Vue.component(component.name, component)
     })
+    // 异步加载方式
+    /**
     resolveArr['oa#candidate'] = () => import('../views/oa/candidate/candidate.vue')
     keyArr.push('oa#candidate')
     resolveArr['oa#carapply'] = () => import('../views/oa/carapply/carapply.vue')
@@ -181,6 +180,7 @@ const oa = {
       moduleKeyArr: keyArr
     }
     Vue.prototype.$module = moduleInfo
+     **/
   }
 }
 if (typeof window !== 'undefined' && window.Vue) {
