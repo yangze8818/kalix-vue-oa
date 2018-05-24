@@ -48,8 +48,8 @@
   // import Cache from 'common/cache'
   // import Message from 'common/message'
 
-  import 'kalix-vue-common/src/assets/stylus/baseTable.styl'
-  import 'kalix-vue-common/src/assets/stylus/color.styl'
+  import 'kalix-vue-lib/src/assets/stylus/baseTable.styl'
+  import 'kalix-vue-lib/src/assets/stylus/color.styl'
 
   export default {
     activated() {

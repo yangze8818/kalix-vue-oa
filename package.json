@@ -1,7 +1,7 @@
 {
   "name": "kalix-vue-oa",
   "description": "oa plugins",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "yangze8818 <yangze_lmkj@163.com>",
   "license": "MIT",
   "private": false,
@@ -26,11 +26,12 @@
     "easemob-websdk": "^1.4.12",
     "echarts": "^3.8.5",
     "element-ui": "^2.3.4",
+    "kalix-vue-lib": "^0.1.2",
     "smooth-scrollbar": "^8.2.3",
     "strophe.js": "^1.2.14",
     "stylus": "^0.54.5",
     "underscore": "^1.8.3",
-    "vue": "^2.5.2",
+    "vue": "^2.5.16",
     "vue-axios": "^2.0.2",
     "vue-router": "^3.0.1"
   },
@@ -87,7 +88,7 @@
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
+    "vue-template-compiler": "^2.5.16",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   }

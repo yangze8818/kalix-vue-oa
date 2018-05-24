@@ -9,7 +9,7 @@ const registerComponent = function (compList) {
   compList.forEach((item) => {
     console.log('[kalix]-[system] registry name is: ' + item.name, '; registry path is: ' + item.path)
     // Vue.component(item.name, _import(item.path))
-    Vue.component(item.name, () => import('../views/' + item.path + '.vue'))
+    Vue.component(item.name, () => import('../lib/' + item.path + '.vue'))
   })
 }
 export {registerComponent}
